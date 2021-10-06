@@ -89,7 +89,7 @@ function Edit() {
     await api
       .put(`/blog/${id}`, data)
       .then((response) => {
-        alert("Conteúdo Cadastrado");
+        alert("Conteúdo alterado");
       })
       .catch((error) => {
         console.log(error);
@@ -117,7 +117,7 @@ function Edit() {
                         rows="5"
                         onChange={(event) => setTitle(event.target.value)}
                         value={title}
-                        className="page_crud_blog"
+                        className="page_crud_blog page_edit_crud"
                       ></textarea>
                     </div>
                     <div className="form_group_crud">
@@ -128,14 +128,13 @@ function Edit() {
                         rows="5"
                         onChange={(event) => setSubTitle(event.target.value)}
                         value={subTitle}
-                        className="page_crud_blog"
+                        className="page_crud_blog page_edit_crud"
                       ></input>
                     </div>
-                    <div className="form_group_crud">
+                    <div className="form_group_crud input_file_img">
                       {/* <Label for="content_picture">Adicionar uma imagema</Label> */}
                       <Dropzone
                         onFileUpload={setSelectFile}
-                        className="testeee"
                       />
                     </div>
                     <div className="form_group_crud">
@@ -146,7 +145,7 @@ function Edit() {
                         rows="10"
                         onChange={(event) => setTexto(event.target.value)}
                         value={texto}
-                        className="page_crud_blog"
+                        className="page_crud_blog page_edit_crud"
                       ></textarea>
                     </div>
                     <div className="form_group_crud">
@@ -157,7 +156,7 @@ function Edit() {
                         rows="5"
                         onChange={(event) => setAutor(event.target.value)}
                         value={autor}
-                        className="page_crud_blog"
+                        className="page_crud_blog page_edit_crud"
                       ></input>
                     </div>
                     <button
