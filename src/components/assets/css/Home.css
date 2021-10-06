@@ -1,0 +1,412 @@
+.teste {
+  text-decoration: none;
+}
+
+.section_cards {
+  margin: 80px 0;
+}
+.formSelectThemes {
+  margin: 10px 0 30px;
+}
+.title_filter {
+  font-size: 18px;
+  padding-bottom: 6px;
+  margin-left: 15px;
+  font-weight: 500;
+}
+.select_filter {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  border: none;
+  position: relative;
+  right: 4px;
+  margin-left: 15px;
+}
+.label_search {
+  position: absolute;
+  right: 0;
+  top: 13px;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+.input_search:focus {
+  transition: 0.3s;
+  padding-top: 20px;
+  font-size: 14px;
+}
+.input_search {
+  position: absolute;
+  right: 0;
+  width: 31%;
+  top: 25px;
+  border: none;
+  border-bottom: 1px solid #a1a1a1;
+  background-color: transparent;
+  padding-top: 0;
+}
+.qntdd_post_publicados {
+  margin-left: 15px;
+}
+/* .card_blogs_crud_home {
+  display: flex;
+  width: 100%;
+  float: left;
+  margin: 0 0 50px;
+} */
+.card_blogs_crud_home img {
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 37%);
+  margin-right: 50px;
+  width: 100%;
+    height: 50%;
+}
+.card_blog_resposive{
+  width: 100%;
+  overflow: hidden;
+}
+.card_body {
+  width: 80%;
+}
+.title_card {
+  margin: 10px 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+}
+.card_text p {
+  font-size: 14px;
+  /* color: #000; */
+  font-weight: 300;
+  color: #7e7e7e;
+  font-weight: 300;
+  line-height: 18px;
+  width: 90%;
+}
+.description_muted {
+  font-size: 18px;
+}
+.author {
+  font-weight: 500;
+  color: #000;
+}
+.author span {
+  font-weight: 300;
+}
+.date {
+  position: absolute;
+  right: 5%;
+  font-weight: 500;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+.page-item {
+  padding: 0 20px;
+  display: inline;
+}
+.pagination_link {
+  text-decoration: none;
+  color: #000;
+}
+.pagination_link:active {
+  font-weight: 500;
+  color: #27447e;
+}
+.section_cards_publicidade {
+  background-color: #27447e;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 34%);
+}
+.cards_publicitarios {
+  justify-content: center !important;
+  padding: 0 0 20px;
+}
+.title_card_publicitario {
+  padding: 30px 0 20px;
+  width: 75%;
+  margin: 30px auto 60px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-weight: 400;
+}
+.title_card_publicitario::after {
+  content: "";
+  position: absolute;
+  border-bottom: 3px solid #fff;
+  width: 60px;
+  bottom: 70px;
+}
+.conteudo_publi_home_card {
+  color: rgb(189 189 189);
+  font-size: 14px;
+  font-weight: 500;
+}
+.link_card_noticias {
+  text-decoration: none;
+}
+.font-title-h5 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.subscribe img {
+  float: left;
+  width: 100%;
+}
+.send_email {
+  margin: 120px 0 100px;
+  display: table;
+  text-align: center;
+  width: 50%;
+}
+.subtitle_send_email {
+  margin: 30px auto;
+  color: #000;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.subtitle_send_email::before {
+  content: "";
+  display: block;
+  width: 40px;
+  position: absolute;
+  top: 80px;
+  right: 24%;
+  border-bottom: 3px solid #27447e;
+}
+.lead_send_email {
+  margin: 10px auto 20px;
+}
+.input_send_email input {
+  width: 70%;
+  padding: 12px 30px;
+  font-size: 12px;
+  border: 1px solid #a3a3a3;
+}
+.input_send_email button {
+  width: 130px;
+  padding: 12px 8px;
+  border: 1px solid #ddd;
+  background: #27447e;
+  margin: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.input_send_email button:hover {
+  background: #759bd1;
+}
+@media screen and (max-width: 1201px) {
+  .subscribe {
+    padding: 40px 0;
+  }
+  .send_email {
+    margin: 60px 0 0px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .section_cards {
+    margin: 30px 0;
+  }
+  .title_filter {
+    display: none;
+  }
+  .select_filter {
+    font-size: 12px;
+    text-align: center;
+    right: 0;
+    margin-left: 0;
+    left: -8px;
+  }
+  .input_search {
+    width: 60%;
+    top: 10px;
+    font-size: 12px;
+    border-bottom: 1px solid #27447e;
+  }
+  .qntdd_post_publicados {
+    margin-left: 0;
+    font-size: 14px;
+    position: relative;
+    top: -30px;
+    left: -8px;
+  }
+  .title_card_publicitario {
+    padding: 0px 0 18px;
+    margin: 30px auto 14px;
+    justify-content: flex-start;
+    font-size: 12px;
+  }
+  .title_card_publicitario::after {
+    border-bottom: 2px solid #fff;
+    width: 20px;
+    bottom: 20px;
+  }
+  .font-title-h5 {
+    font-size: 14px;
+    margin: 7px 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+  }
+  .conteudo_publi_home_card p {
+    margin: 0 0 40px;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+  }
+  .subscribe {
+    margin: 60px 0 0;
+    padding: 0;
+  }
+  .subscribe img {
+    width: 100%;
+  }
+  .send_email {
+    margin: 30px 0 30px;
+  }
+  .send_email p {
+    margin: 20px 0 10px;
+  }
+  .subtitle_send_email {
+    margin: 10px auto 16px;
+    font-size: 22px;
+  }
+  .subtitle_send_email::before {
+    top: 43px;
+    right: 23%;
+  }
+  .lead_send_email {
+    font-size: 14px;
+  }
+  .input_send_email input {
+    width: 60%;
+    padding: 9px 4px;
+    font-size: 10px;
+  }
+  .input_send_email button {
+    width: 90px;
+    padding: 6px 0px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .qntdd_post_publicados {
+    bottom: 30px;
+    font-weight: 600;
+    position: relative;
+    left: 0;
+  }
+  .select_filter{
+    left: 0;
+  }
+  .label_search {
+    left: 70%;
+    top: -117px;
+    font-size: 10px;
+  }
+  .input_search {
+    right: 0px;
+    top: -115px;
+    width: 30%;
+  }
+  .cards_publicitarios {
+    padding: 0;
+  }
+  .title_card_publicitario {
+    padding: 0;
+    margin: 30px auto 40px;
+  }
+  .title_card_publicitario::after {
+    bottom: 30px;
+  }
+  .subscribe img {
+    display: none;
+  }
+  .send_email {
+    margin: 0 0 60px;
+    width: 100%;
+  }
+  .subtitle_send_email::before {
+    right: 46%;
+  }
+}
+@media screen and (max-width: 539px) {
+  .title_filter {
+    font-size: 12px;
+  }
+  .select_filter {
+    font-size: 12px;
+    left: 20px;
+  }
+  .qntdd_post_publicados {
+    font-size: 10px;
+    left: 24px;
+    top: -38px;
+  }
+  .label_search {
+    left: 68%;
+    top: -70px;
+  }
+  .input_search {
+    right: 12px;
+    top: -80px;
+  }
+  .card_blog_resposive {
+    margin: 0 auto;
+    display: table;
+  }
+  .title_card {
+    font-size: 14px;
+  }
+  .author {
+    font-size: 10px;
+  }
+  .pagination {
+    display: none;
+  }
+  .title_card_publicitario {
+    margin: 25px auto 40px;
+    width: 100%;
+    font-size: 14px;
+  }
+  .title_card_publicitario::after {
+    width: 30px;
+  }
+  .conteudo_publi_home_card p {
+    margin: 0 0 20px;
+    font-size: 10px;
+  }
+  .subscribe {
+    margin: 20px 0 30px;
+  }
+  .subtitle_send_email {
+    margin: 0px auto 16px;
+    font-size: 16px;
+  }
+  .subtitle_send_email::before {
+    right: 45%;
+    top: 26px;
+  }
+  .send_email {
+    margin: 0px 0 30px;
+  }
+  .send_email p {
+    font-size: 11px;
+  }
+  ::placeholder {
+    font-size: 9px !important;
+  }
+  .input_send_email input {
+    padding: 5px 0px;
+  }
+  .input_send_email button {
+    width: 70px;
+    padding: 4px 0px;
+    font-size: 10px;
+  }
+}
